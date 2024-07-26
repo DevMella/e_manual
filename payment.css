@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body{
+    width: 100%;
+    display: flex;
+}
+.all{
+    overflow: hidden;
+}
+.side{
+    width: 20%;
+    padding: 20px;
+    background-color: #f5f5f5;
+    height: 100vh;
+    position: fixed;
+}
+.logo h4{
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.icon p{
+    font-weight: 500;
+    font-size: 18px;
+    margin-top:2px;
+}
+.icon i{
+    font-size: 21px;
+}
+.bab{
+    margin-top: 210px;
+}
+.icon.active {
+    color: white; 
+    background-color: #54baac;
+    border-radius: 0px 30px 30px 0px;
+    padding: 10px 0px 0px 15px;
+    width: 100%;
+    height: 50px;
+}
+.side a{
+    text-decoration: none;
+    color: black;
+}
+.main-body{
+    width: 80%;
+    margin-left: 300px !important;
+    padding:  0px 30px 30px 0px !important;
+}
+form i{
+    margin-left : -30px;
+    margin-top: 10px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    width: 79%;
+    padding: 20px 50px 15px 0px;
+    position: fixed;
+    background-color: white;
+    z-index: 100;
+}
+.top h5{
+    font-weight: 800;
+}
+.top input{
+    width: 100%;
+    height: 35px;
+    border: 1px solid black !important;
+    border-radius: 20px;
+    padding: 20px 35px 20px 20px;
+    outline: none;
+}
+.cir{
+    width: 35px;
+    height: 35px;
+    font-size: 21px;
+    color: white;
+    border-radius: 50%;
+    background-color: #54baac;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mine{
+   padding-top: 80px;
+}
+.odo{
+    box-shadow: #63636333 0px 1px 4px 0px;
+    border-radius: 10px;
+    padding: 18px;
+    width: 100%;
+}
+.input-box{
+    position: relative;
+    width: 100%;
+}
+.input-box label{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 60px;
+    pointer-events: none;
+    font-weight: 500;
+    font-size: 17px;
+    color: gray;
+    transition: all ease .40s;
+}
+.input-box .icon{
+    position: absolute;
+    left: 49px;
+    margin-top: 8px;
+    font-size: 20px;
+    line-height: 55px;
+    color: gray;
+}
+.input-box input:focus~label,
+.input-box input:valid~label{
+    top: 20px ;
+}
+.omo{
+    box-shadow: #63636333 0px 1px 4px 0px;
+    border-radius: 10px;
+    padding: 18px;
+    width: 100%;
+}
+.ano p{
+    color: rgb(102, 100, 100);
+}
+.jabo{
+    box-shadow: #63636333 0px 1px 4px 0px;
+    border-radius: 10px;
+    padding: 18px;
+    width: 100%;
+}
+.loga h4{
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.min{
+    width: 100px;
+}
+.jabo img{
+    width: 100%;
+    border-radius: 10px;
+    height: 60px;
+    object-fit: cover;
+}
+.boom{
+    box-shadow: #63636333 0px 1px 4px 0px;
+    border-radius: 10px;
+    padding: 18px;
+    width: 100%;
+}
+.pay{
+    width: 150px;
+}
+.pay img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+  .icons{
+    width: 100%;
+    background-color: #54baac;
+}
+.icons a{
+    color: white;
+}
+
+@media (max-width:764px) {
+    .main-body{
+        width: 100%;
+        margin-left: 0px !important;
+        padding:  0px 20px 30px 20px !important;
+        margin-bottom: 70px;
+    }
+    .top{
+        width: 100%;
+    }
+    .ori{
+        flex-direction: column;
+    }
+    .tee,.tat{
+        width: 100%;
+    }
+    .lat img{
+        width: 100%;
+        height: 330px;
+    }
+    .tat{
+        padding: 0px 0px 20px 0px;
+    }
+}
